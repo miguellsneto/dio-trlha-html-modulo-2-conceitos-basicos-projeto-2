@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #423F3F;
+}
+
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: darkturquoise;
+    padding: 50px 20px 0px;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.menu a {
+    color: darkslateblue;
+    text-decoration: none;
+    font-size: 20px;    
+}
+
+.menu a:hover {
+    color: darkcyan;
+}
+
+.menu img {
+    width: 100%;
+}
+
+.menu p {
+    color: darkslateblue;
+    font-size: 25px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    background-color: white;
+    min-height: 150px;
+}
+
+.header img {
+    width: 100%;
+    max-height: 350px;
+    
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 2rem 5rem;
+    font-size: 20px;
+}
+
+.content mark {
+    background-color: #ddf1f2;
+}
+
+.content h1 {
+    color: #003333;
+}
+
+.content img {
+    width: 1rem;
+}
+
+table {
+    font-size: 18px;
+    margin: auto;
+    width: 800px;
+    border: solid 1px #052525;
+    -webkit-box-shadow: 10px 10px 18px 1px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 10px 10px 18px 1px rgba(0, 0, 0, 0.42);
+    box-shadow: 10px 10px 18px 1px rgba(0, 0, 0, 0.42);
+}
+
+table td {
+    border: solid 1px #052525;
+}
+
+table tfoot td {
+    background-color: lightgray;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #c3e8e8;
+}
+
+table tbody tr:hover td {
+    background-color: #8dcaca;
+}
+
+table th {
+    background-color: #0a5c5c;
+    color: #ffffff;
+    border: solid 1px #002020;
+}
+
+.footer {
+    width: 986px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #003333;
+    min-height: 150px;
+    text-align: left;
+    padding: 1rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.footer img {
+    width: 1rem;
+    padding-right: 10px;
+}
+
+form {
+    width: 50%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: cadetblue;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form button {
+    max-width: 5rem;
+    margin-top: 1rem;
+}
+
+form #buttons {
+    align-items: center;
+}
